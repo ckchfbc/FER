@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "title": "Inception",
+        "year": 2010,
+        "genre": "Khoa Học Viễn Tưởng",
+        "poster": "inception.jpg",
+        "country": "Mỹ",
+        "trailerId": "YoHD9XEInc0",
+        "rating": 4.8
+    },
+    {
+        "id": 2,
+        "title": "Interstellar",
+        "year": 2014,
+        "genre": "Phiêu Lưu",
+        "poster": "interstellar.jpg",
+        "country": "Mỹ",
+        "trailerId": "zSWdZVtXT7E",
+        "rating": 4.6
+    },
+    {
+        "id": 3,
+        "title": "Parasite",
+        "year": 2019,
+        "genre": "Chính Kịch",
+        "poster": "parasite.jpg",
+        "country": "Hàn Quốc",
+        "trailerId": "5xH0HfJHsaY",
+        "rating": 4.9
+    },
+    {
+        "id": 4,
+        "title": "The Dark Knight",
+        "year": 2008,
+        "genre": "Hành Động",
+        "poster": "dark-knight.jpg",
+        "country": "Mỹ",
+        "trailerId": "EXeTwQWrcwY",
+        "rating": 4.7
+    },
+    {
+        "id": 5,
+        "title": "Avengers: Endgame",
+        "year": 2019,
+        "genre": "Hành Động",
+        "poster": "endgame.jpg",
+        "country": "Mỹ",
+        "trailerId": "TcMBFSGVi1c",
+        "rating": 4.5
+    },
+    {
+        "id": 6,
+        "title": "The Matrix",
+        "year": 1999,
+        "genre": "Khoa Học Viễn Tưởng",
+        "poster": "matrix.jpg",
+        "country": "Mỹ",
+        "trailerId": "m8e-FF8MsqU",
+        "rating": 4.7
+    },
+    {
+        "id": 7,
+        "title": "Spirited Away",
+        "year": 2001,
+        "genre": "Hoạt Hình",
+        "poster": "spirited-away.jpg",
+        "country": "Nhật Bản",
+        "trailerId": "ByXuk9QqQkk",
+        "rating": 4.8
+    },
+    {
+        "id": 8,
+        "title": "Forrest Gump",
+        "year": 1994,
+        "genre": "Chính Kịch",
+        "poster": "forrest-gump.jpg",
+        "country": "Mỹ",
+        "trailerId": "bLvqoHBptjg",
+        "rating": 4.9
+    },
+    {
+        "id": 9,
+        "title": "The Godfather",
+        "year": 1972,
+        "genre": "Tội Phạm",
+        "poster": "godfather.jpg",
+        "country": "Mỹ",
+        "trailerId": "sY1S34973zA",
+        "rating": 4.9
+    },
+    {
+        "id": 10,
+        "title": "Pulp Fiction",
+        "year": 1994,
+        "genre": "Tội Phạm",
+        "poster": "pulp-fiction.jpg",
+        "country": "Mỹ",
+        "trailerId": "s7EdQ4FqbhY",
+        "rating": 4.7
+    },
+    {
+        "id": 11,
+        "title": "The Lord of the Rings: The Return of the King",
+        "year": 2003,
+        "genre": "Huyền Bí",
+        "poster": "lotr-return.jpg",
+        "country": "New Zealand",
+        "trailerId": "r5X-hFf6Bwo",
+        "rating": 4.9
+    },
+    {
+        "id": 12,
+        "title": "Gladiator",
+        "year": 2000,
+        "genre": "Hành Động",
+        "poster": "gladiator.jpg",
+        "country": "Mỹ",
+        "trailerId": "owK1qxDselE",
+        "rating": 4.6
+    },
+    {
+        "id": 13,
+        "title": "Titanic",
+        "year": 1997,
+        "genre": "Tình Cảm",
+        "poster": "titanic.jpg",
+        "country": "Mỹ",
+        "trailerId": "2e-eXJ6HgkQ",
+        "rating": 4.8
+    },
+    {
+        "id": 14,
+        "title": "Schindler's List",
+        "year": 1993,
+        "genre": "Tiểu Sử",
+        "poster": "schindlers-list.jpg",
+        "country": "Mỹ",
+        "trailerId": "gG22XNhtnoY",
+        "rating": 4.9
+    },
+    {
+        "id": 15,
+        "title": "The Lion King",
+        "year": 1994,
+        "genre": "Hoạt Hình",
+        "poster": "lion-king.jpg",
+        "country": "Mỹ",
+        "trailerId": "7TavVZMewpY",
+        "rating": 4.8
+    },
+    {
+        "id": 16,
+        "title": "Jurassic Park",
+        "year": 1993,
+        "genre": "Phiêu Lưu",
+        "poster": "jurassic-park.jpg",
+        "country": "Mỹ",
+        "trailerId": "lc0UehYemQA",
+        "rating": 4.7
+    },
+    {
+        "id": 17,
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "genre": "Chính Kịch",
+        "poster": "shawshank.jpg",
+        "country": "Mỹ",
+        "trailerId": "NmzuHjWmXOc",
+        "rating": 4.9
+    },
+    {
+        "id": 18,
+        "title": "Avatar",
+        "year": 2009,
+        "genre": "Khoa Học Viễn Tưởng",
+        "poster": "avatar.jpg",
+        "country": "Mỹ",
+        "trailerId": "5PSNL1qE6VY",
+        "rating": 4.7
+    },
+    {
+        "id": 19,
+        "title": "The Silence of the Lambs",
+        "year": 1991,
+        "genre": "Giật Gân",
+        "poster": "silence-lambs.jpg",
+        "country": "Mỹ",
+        "trailerId": "W6Mm8Sbe__o",
+        "rating": 4.8
+    },
+    {
+        "id": 20,
+        "title": "The Avengers",
+        "year": 2012,
+        "genre": "Hành Động",
+        "poster": "avengers.jpg",
+        "country": "Mỹ",
+        "trailerId": "eOrNdBpGMv8",
+        "rating": 4.6
+    },
+    {
+        "id": 21,
+        "title": "The Social Network",
+        "year": 2010,
+        "genre": "Tiểu Sử",
+        "poster": "social-network.jpg",
+        "country": "Mỹ",
+        "trailerId": "2RB3edZyeYw",
+        "rating": 4.5
+    },
+    {
+        "id": 22,
+        "title": "The Intouchables",
+        "year": 2011,
+        "genre": "Hài",
+        "poster": "intouchables.jpg",
+        "country": "Pháp",
+        "trailerId": "34WIbmXkewU",
+        "rating": 4.8
+    },
+    {
+        "id": 23,
+        "title": "Your Name",
+        "year": 2016,
+        "genre": "Hoạt Hình",
+        "poster": "your-name.jpg",
+        "country": "Nhật Bản",
+        "trailerId": "xU47nhruN-Q",
+        "rating": 4.7
+    },
+    {
+        "id": 24,
+        "title": "Crouching Tiger, Hidden Dragon",
+        "year": 2000,
+        "genre": "Hành Động",
+        "poster": "crouching-tiger.jpg",
+        "country": "Trung Quốc",
+        "trailerId": "iv_ed5VmoD8",
+        "rating": 4.6
+    }
+]

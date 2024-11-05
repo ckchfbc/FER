@@ -1,0 +1,267 @@
+/* Đảm bảo header không che lấp phần khác */
+.header {
+    position: relative;
+    /* Giữ header cố định khi cuộn */
+    z-index: 10;
+    /* Đảm bảo header hiển thị phía trước slider */
+    background-color: #fff;
+    /* Màu nền header */
+}
+
+/* Đặt con trỏ tùy chỉnh */
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* Đảm bảo chiều cao body và html chiếm toàn bộ cửa sổ */
+    cursor: url('tyrannosaurus.png'), auto;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    /* Đặt các phần tử con theo chiều dọc */
+    height: 100vh;
+    /* Chiếm toàn bộ chiều cao cửa sổ */
+}
+
+main {
+    flex-grow: 1;
+    /* Chiếm hết không gian còn lại */
+    display: flex;
+    flex-direction: column;
+    /* Sắp xếp các phần tử dọc theo chiều dọc */
+}
+
+footer {
+    margin-top: auto;
+    /* Đẩy footer xuống đáy của container */
+}
+
+.footer {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #282c34;
+    /* Đặt màu nền cho footer */
+    color: white;
+    /* Màu chữ của footer */
+}
+
+.footer-text {
+    height: 60px;
+    margin: 0;
+    word-spacing: 50px;
+    /* Tăng khoảng cách giữa các từ */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Các quy tắc khác vẫn giữ nguyên */
+.App {
+    text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Hiệu ứng hover cho nút play */
+.movie-card:hover .play-button {
+    transform: translate(-50%, -50%) scale(1.1);
+    opacity: 1;
+}
+
+/* Thiết kế slider trong banner */
+/* Thiết kế slider trong banner */
+.banner .slider {
+    position: absolute;
+    width: 200px;
+    height: 250px;
+    top: 50%;
+    /* Căn chỉnh chiều cao của slider */
+    left: calc(50% - 100px);
+    /* Căn chỉnh slider giữa trang */
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+    animation: autoRun 70s linear infinite;
+    /* Điều chỉnh tốc độ xoay */
+
+}
+
+/* Thiết kế các item trong slider */
+.banner .slider .item {
+    position: absolute;
+    inset: 0 0 0 0;
+    transform:
+        rotateY(calc((var(--position) - 1) * (360 / var(--quantity)) * 1deg)) translateZ(550px);
+    /* Điều chỉnh khoảng cách 3D */
+
+}
+
+/* Hiệu ứng xoay cho dòng chữ "Top 10 Film" */
+.title-rotate {
+    position: absolute;
+    top: 20%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    font-size: 3em;
+    font-weight: bold;
+    color: red;
+    white-space: nowrap;
+    z-index: 1;
+    perspective: 500px;
+    /* Tạo chiều sâu cho không gian 3D */
+}
+
+.title-rotate::before {
+    content: "Top 10 Movies";
+    position: absolute;
+    top: 5px;
+    /* Điều chỉnh khoảng cách */
+    left: 5px;
+    /* Điều chỉnh khoảng cách */
+    color: black;
+    /* Màu bóng của chữ */
+    z-index: -1;
+    transform: translateZ(-1px);
+    /* Đẩy bóng ra xa hơn để tạo hiệu ứng 3D */
+}
+
+
+
+
+
+
+.banner .slider .item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Điều chỉnh ảnh để vừa vặn trong khung */
+}
+
+
+
+
+
+
+
+
+/* Thêm hiệu ứng chuyển động tự động cho slider */
+@keyframes autoRun {
+    from {
+        transform: perspective(1000px) rotateY(0deg);
+    }
+
+    to {
+        transform: perspective(1000px) rotateY(360deg);
+    }
+}
+
+/* Hiệu ứng xoay logo ứng dụng */
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+
+
+}
+
+/* src/components/MovieDetail.css */
+
+.movie-detail-container {
+    font-family: 'Arial', sans-serif;
+}
+
+.movie-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.movie-details {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.movie-poster {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.trailer-container {
+    margin-top: 1.5rem;
+}
+
+.movie-trailer {
+    border-radius: 8px;
+}
+
+/* src/App.css */
+
+/* Light Theme */
+body.light {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Theme */
+  body.dark {
+    background-color: #121212; /* Dark background */
+    color: white; /* Light text color */
+  }
+  
+  /* Add more styles as needed to customize your components for each theme */
+/* src/components/Header.css */
+.logo-container {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;          /* Make the container circular */
+    overflow: hidden;            /* Crop any overflow content */
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.2); /* 3D shadow effect */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(145deg, #ffffff, #d1d1d1); /* Slight 3D light gradient */
+  }
+  
+  .logo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;           /* Scale the logo to fill the container */
+    transition: transform 0.3s;  /* Smooth transition for hover effect */
+  }
+  
+  .logo-container:hover .logo-image {
+    transform: scale(1.05);      /* Slight zoom-in effect on hover */
+  }
+
+  .nav-dropdown-item {
+    white-space: nowrap; /* Prevents wrapping */
+  }
+  
